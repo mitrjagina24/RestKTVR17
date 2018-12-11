@@ -23,7 +23,7 @@ public class HistoryFacade extends AbstractFacade<History> {
     @EJB BookFacade bookFacade;
     
 
-    @PersistenceContext(unitName = "KTVR17WebLibraryPU")
+    @PersistenceContext(unitName = "RestKTVR17PU")
     private EntityManager em;
 
     @Override
